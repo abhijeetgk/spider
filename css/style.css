@@ -1,0 +1,33 @@
+#tagcloud {
+    width: 98%;
+    height: 100%;
+    background:black;
+    color:white;
+    padding: 10px;
+    border: 1px solid black;
+    text-align:center;
+}
+
+#tagcloud a:link, #tagcloud a:visited a:hover {
+    text-decoration:none;
+    color:white;
+}
+
+#tagcloud a:hover, #tagcloud a:active {
+    text-decoration: underline;
+    color: white;
+}
+
+#tagcloud span {
+    padding: 4px;
+}
+
+.smallest {font-size: 14px;}.smallest a{font-size: 14px;color:white}
+
+.small {font-size: 18px; color: white}.small a {font-size: 18px; color: white}
+.small-1 {font-size: 20px;}.small-1 a {font-size: 20px; color:white}
+.medium {font-size:25px;}.medium a{font-size:25px; color: white}
+.medium-1 {font-size:30px;}.medium-1 a {font-size:30px; color: white}
+.large {font-size:35px;}.large a {font-size:35px; color: white}
+.large-1 {font-size:40px;}.large-1 a {font-size:40px; color: white}
+.largest { font-size:45px;}.largest a  { font-size:45px; color: white}
